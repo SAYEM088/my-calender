@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my calender</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            height: 100vh;
+            background-image: url(./bgim.png),
+            linear-gradient(rgba(0, 24, 24, 0.9),rgb(0, 0, 0, .7));
+        }
+        #y-name{
+            color: red;
+            font-weight: 1000;
+            font-size: 45px;
+        }
+        .hder{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .nav{
+            font-size: 30px;
+            color: rgb(105, 245, 105);
+        }
+         ul{
+            font-size: 1.5em;
+            font-weight: 700;
+            color: aliceblue;
+            list-style: none;
+            display: inline-flex;
+            column-gap: 20px;
+
+        }
+        h2{
+            color: rgb(182, 245, 67);
+            font-weight: 1000;
+            font-size: 2.5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            margin-top: 50px;    }
+        .container{
+           
+            padding: 20px;
+            margin: 30px;
+            display: grid;
+            grid-template-columns: repeat(7,1fr); 
+            column-gap: 30px; 
+            row-gap: 25px;
+        }
+        .date, .day{
+            background-color: rgb(115, 241, 199);
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            height: 40px;
+            padding: 5px;
+        }
+        .others-month{
+            background-color: rgb(131, 118, 118);
+        }
+        .fri{
+            color: rgb(245, 8, 8);
+        }
+        .head-d{
+            background-color: rgb(18, 138, 168);
+            font-weight: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="hder">
+        <div class="nav"><h3>SA<span id="y-name">Y</span>EM</h3></div>
+        <div class="service">
+            <ul><li>About</li>
+            <li>Service</li>
+            <li><span>Hire</span></li></ul>
+        </div>
+        
+      
+    </div>
+    
+    <div>
+        <h2>February-2023</h2>
+
+    <div class="container">
+        <div class="day head-d">S</div>
+        <div class="day head-d">M</div>
+        <div class="day head-d">T</div>
+        <div class="day head-d">W</div>
+        <div class="day head-d">T</div>
+        <div class="day head-d">F</div>
+        <div class="day head-d">S</div>
+        <div class="date others-month">29</div>
+        <div class="date others-month">30</div>
+        <div class="date others-month">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date fri">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date fri">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date fri">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date fri">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date fri">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date others-month">1</div>
+        <div class="date others-month">2</div>
+        <div class="date others-month fri">3</div>
+        <div class="date others-month">4</div>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
